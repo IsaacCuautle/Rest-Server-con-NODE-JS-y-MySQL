@@ -9,7 +9,7 @@ Este servidor puede realizar las cuatro operaciones fundamentales en una base de
 
 <h2 id="Instalacion">Instalacion</h2> 
 
-1. Descargue el archivo zip del proyecto y descomprima
+1. [Descargue el archivo zip del proyecto y descomprima](https://github.com/IsaacCuautle/Rest-Server-con-NODE-JS-y-MySQL/releases/download/main/Rest-Server-con-NODE-JS-y-MySQL.zip)
 2. Configure las variables de entorno (.env)
 3. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
 4. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
