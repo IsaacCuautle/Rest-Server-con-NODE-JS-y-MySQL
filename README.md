@@ -3,11 +3,11 @@ Este proyecto consta de un Rest Server utilizando el lenguaje de programacion Ty
 Este servidor puede realizar las cuatro operaciones fundamentales en una base de datos Create, Read Update y Delete (CRUD)
 
 ## Indice
-1. Instalacion
+1. [Instalacion](#Instalacion)
 2. End-points
 3. Tecnologias y herramientas utilizadas
 
-## Instalacion
+<h2 id="Instalacion">Instalacion</h2> 
 1. Descargue el archivo zip del proyecto
 2. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
 3. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
