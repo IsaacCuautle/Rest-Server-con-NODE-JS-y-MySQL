@@ -12,7 +12,7 @@ Este servidor puede realizar las cuatro operaciones fundamentales en una base de
 1. [Descargue el archivo zip del proyecto y descomprima](https://github.com/IsaacCuautle/Rest-Server-con-NODE-JS-y-MySQL/releases/download/main/Rest-Server-con-NODE-JS-y-MySQL.zip)
 3. Configure las variables de entorno (.env)
 4. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
-5. Mediante su sistema gestor de base de datos (SGBD) de confianza utilize el archivo `node.dump` para restaurar la base de datos y su tabla
+5. Mediante su sistema gestor de base de datos (SGBD) de confianza utilize el archivo `node.dump` para restaurar la base de datos y su tabla (MySQL v8.0)
 6. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
 
 
