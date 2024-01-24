@@ -4,16 +4,18 @@ Este servidor puede realizar las cuatro operaciones fundamentales en una base de
 
 ## Indice
 1. [Instalacion](#Instalacion)
-2. End-points
-3. Tecnologias y herramientas utilizadas
+2. [End-points](#Endpoints)
+3. [Tecnologias y herramientas utilizadas](#tecnologiasHerramientas)
 
 <h2 id="Instalacion">Instalacion</h2> 
-1. Descargue el archivo zip del proyecto
-2. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
-3. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
+
+1. Descargue el archivo zip del proyecto y descomprima
+2. Configure las variables de entorno (.env)
+3. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
+4. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
 
 
-## End-points
+<h2 id="Endpoints">End-points</h2> 
 
 ### End-point: Create User
 esta ruta nos permite crear un usuario, simpre y cuando se cumplan los parametros necesarios para ello en el body de la peticion (incluir un nombre de usuario y un email)
@@ -78,4 +80,12 @@ Esta ruta permite la eliminacion logica de los usuarios, cambiando su estado de 
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-### Tecnologias y herramientas utilizadas
+<h2 id="tecnologiasHerramientas">Tecnologias y herramientas</h2> 
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
