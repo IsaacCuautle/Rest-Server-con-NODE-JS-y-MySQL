@@ -10,9 +10,10 @@ Este servidor puede realizar las cuatro operaciones fundamentales en una base de
 <h2 id="Instalacion">Instalacion</h2> 
 
 1. [Descargue el archivo zip del proyecto y descomprima](https://github.com/IsaacCuautle/Rest-Server-con-NODE-JS-y-MySQL/releases/download/main/Rest-Server-con-NODE-JS-y-MySQL.zip)
-2. Configure las variables de entorno (.env)
-3. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
-4. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
+3. Configure las variables de entorno (.env)
+4. Inicie una terminal dentro de la carpeta del proyecto y ejecute `npm i` para descargar las dependencias necesarias
+5. Mediante su sistema gestor de base de datos (SGBD) de confianza utilize el archivo `node.dump` para restaurar la base de datos y su tabla
+6. Dentro de la misma terminal ejecute el comando `node .\dist\app.js` para iniciar el proyecto
 
 
 <h2 id="Endpoints">End-points</h2> 
@@ -89,3 +90,4 @@ Esta ruta permite la eliminacion logica de los usuarios, cambiando su estado de 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
